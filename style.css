@@ -1,0 +1,147 @@
+body
+{
+    background-color: #DDFCFA;
+    background-attachment: no-repeat;
+    font-family: "Trebuchet MS", Impact, "Arial", sans-serif;
+
+}
+
+@font-face
+{
+    font-family: 'BallparkWeiner';
+    src: url('polices/ballpark.eot');
+    src: url('polices/ballpark.eot?#iefix') format('embedded-opentype'),
+         url('polices/ballpark.woff') format('woff'),
+         url('polices/ballpark.ttf') format('truetype'),
+         url('polices/ballpark.svg#BallparkWeiner') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face
+{
+    font-family: 'Dayrom';
+    src: url('polices/dayrom.eot');
+    src: url('polices/dayrom.eot?#iefix') format('embedded-opentype'),
+         url('polices/dayrom.woff') format('woff'),
+         url('polices/dayrom.ttf') format('truetype'),
+         url('polices/dayrom.svg#Dayrom') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+p, ul{
+  font-family: "Trebuchet MS", Impact, "Arial", sans-serif;
+  color: purple;
+}
+#bloc_page
+{
+    width: 3000px;
+    margin: 0;
+}
+h1
+{ color: purple;
+  font-family: "ballpark", sans-serif;
+  font-size: 2em;
+  text-align :right;
+
+}
+#photo
+{
+
+position : absolute;
+right :0;
+top :0;
+}
+    
+}
+
+h2
+{
+  text-align : center;
+	font-size: 0.4em;
+  color :rgb(7, 85, 7);
+ }
+
+
+p
+{text-align: justify;
+	font-size: 0.9em;
+
+}
+
+
+#conteneur
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    height : 0.8;
+    width : 0.8;
+    position : absolute;
+    
+
+#bloc_noir
+{
+    margin-top: 5px;
+    height: 950px;
+    width : 300px;
+    border-radius: 35px;
+    background: black;
+    position: relative;
+    margin-bottom: 5px;
+    
+}
+
+#nom_fonction
+{
+    margin: 0px;
+    height: 0.05;    
+    width : 1;
+    position: absolute;
+    top: 0;
+    left : 600px;    
+    display: flex;
+    flex : 1;
+    flex-direction: column;
+    justify-content : center;
+ 
+}
+
+.maformation
+{
+  margin-left : 65px;
+  text-align : left;
+}
+
+@media screen and (max-width: 1024px)
+{
+  #bloc_page
+{
+    width: auto;
+}
+
+
+ }
+  #photo
+  {
+
+ float : left;
+  right :0;
+  top :0;
+  }
+        
+  #conteneur
+  {
+  flex-direction: column;
+      
+  }
+
+  #bloc_noir
+  {
+  display:none;
+  }
+ 
+     
+}
